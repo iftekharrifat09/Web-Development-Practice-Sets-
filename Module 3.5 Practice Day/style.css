@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playwrite+NL:wght@100..400&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+*body{
+    padding: 0px;
+    margin: 0px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.fa-bars{
+    display: none ;
+}
+.logo-h4{
+    font-size: 40px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.dot{
+    color: rgba(255, 66, 64, 1);
+}
+.menu-item{
+    display: flex;
+    justify-content: space-around;
+}
+.list-group-item{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    border-style: none;
+}
+.list-group-item:hover{
+    color: rgba(255, 66, 64, 1);
+    cursor: pointer;
+}
+.search-system{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.get-btn{
+    width: 148px;
+    height: 57px;
+    border-radius: 10px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    border-style: none;
+    background-color: rgba(255, 66, 64, 1);
+    color: white;
+}
+main{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.carousel-caption{
+    padding: 20px;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 50%);
+    border-radius: 8px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+.edit-carousel{
+    border-radius: 10px;
+    background-color: black;
+}
+.edit-carousel-img{
+    height: 609px;
+    border-radius: 30px;
+}
+.hr-line{
+    border-top: 3px dashed silver;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.program-h2{
+    font-size: 36px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 25px;
+}
+.program-pera{
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.card-data{
+    width: 573px;
+    height: 338px;
+    border: 2px solid;
+}
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content:end;
+    text-align: left; 
+    height: 100%; 
+    padding: 40px !important;
+}
+.card{
+  border-radius: 20px !important;  
+  border: none !important;
+
+}
+.card-button {
+    align-self: flex-start;
+    width: 180px;
+    height: 47px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgba(255, 66, 64, 1);
+    color: white;
+    font-weight: 500;
+}
+.card{
+    position: relative;
+}
+.overly{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 30%;
+    border-radius: 20px;
+}
+.card-top{
+    width: 630px !important;
+    height: 338px;
+    border-radius: 20px;
+
+}
+.first-second-card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.card-title{
+    font-size: 28px;
+    font-weight: bold;
+}
+.card-text{
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.product-data{
+    width: 600px;
+    height: 218px;
+    display: flex;
+    align-items: center;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+.product-image{
+    width: 180px;
+    height: 172px;
+}
+.info-header{
+    display: flex;
+    gap: 20px;
+}
+.product-info{
+    padding-left: 40px !important;
+}
+.price-info{
+    display: flex;
+    gap: 20px;
+}
+.product-pair{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.program-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.program-selection{
+    width: 607px;
+}
+.faq-main-div{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid silver;
+}
+.faq-section-main{
+    margin-bottom: 100px;
+}
+.contact-card{
+    width: 400px !important;
+    height: 216px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 30px;
+    background-color: rgb(248, 253, 240);
+}
+.form-label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.form-control{
+    color: silver;
+    width: 324px !important;
+    height: 64px !important;
+    border-radius: 10px !important;
+    padding: 20px !important;
+    background-color: rgb(248, 248, 248) !important;
+}
+#exampleFormControlTextarea1{
+    width: 672px !important;
+    height: 370px !important;
+}
+.contact-form-data{
+    display: flex;
+    gap: 20px;
+}
+.form-button{
+    height: 57px;
+    width: 672px;
+    border-radius: 12px;
+    background-color: rgb(255, 66, 64);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-style: none;
+}
+.left-side{
+    border: 1px solid rgba(192, 192, 192, 70%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    padding: 40px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.from-section-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.social-media{
+    border-radius: 15px;
+    margin: 50px;
+    padding: 30px;
+    background-color: rgb(248, 248, 248);
+}
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    font-size: 30px;
+}
+
+.ftr{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 25px;
+    color: white;
+}
+.footer-icon-data{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.footer-icon{
+    font-size: 30px;
+    color: rgb(255, 66, 64);
+}
+.footer-pera{
+    font-size: 18px;
+    color: rgb(161, 161, 163);
+    margin-top: 10px;
+    font-weight: 500;
+}
+.footer-h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+    font-size: 18px;
+    color: rgb(161, 161, 163);
+    margin-top: 10px;
+    font-weight: 500;
+}
+footer{
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    margin-top: 100px;
+}
+/* .footer-data{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid red;
+} */
+.outer-circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.inner-circle{
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parcent-text{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+    color: black
+}
+.progress-data{
+    width: 300px;
+    height: 300px;
+}
+.progress-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+.progress-h4{
+    font-weight: bold;
+}
+.out-1{
+    background: conic-gradient(rgb(231, 231, 232) 0% 13%, rgb(255, 66, 64) 13% 100%);
+}
+.out-2{
+    background: conic-gradient(rgb(231, 231, 232) 0% 5%, rgb(73, 210, 147) 5% 100%);
+}
+.out-3{
+    background: conic-gradient(rgb(231, 231, 232) 0% 10%, rgb(255, 181, 70) 10% 100%);
+}
+.out-4{
+    background: conic-gradient(rgb(231, 231, 232) 0% 20%, rgb(76, 141, 241) 20% 100%);
+}
+
+
+
+

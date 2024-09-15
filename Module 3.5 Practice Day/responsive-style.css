@@ -1,0 +1,256 @@
+@media only screen and (max-width: 770px) {
+    *body{
+        padding: 0px;
+        margin: 0px;
+    }
+    .list-group-item{
+        display: none !important;
+    }
+    .small-menu{
+        display: block !important;
+        font-size: 25px;
+        margin-bottom: 10px;
+        padding-left: 30px !important;
+    }
+    .logo-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-left: 50px !important;
+    }
+    .fa-magnifying-glass{
+        display: none !important;
+    }
+    .get-btn{
+        width: 148px !important;
+        height: 41px;
+        font-size: 16px;
+    }
+    .carousel-item{
+        height: 200px !important;
+    }
+
+    /* editing the carousel */
+    .carousel-inner {
+        max-width: 335px;
+        margin: 0 auto;   
+    }
+    .carousel-item img {
+        height: 200px; 
+        object-fit: cover; 
+    }
+
+    .carousel-caption {
+        background-color: rgb(10, 10, 10); 
+        position: relative !important; 
+        margin-top: 100px !important;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 16px; 
+        color: rgb(246, 242, 242);
+    }
+    .carousel-caption p {
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+    }
+    .program-h2{
+        font-size: 25px !important;
+        padding: 0px 20px ;
+    }
+    .program-pera{
+        font-size: 16px !important;
+        color: gray;
+        padding: 0px 20px;
+    }
+    .progressing{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .progress-data{
+        width: 300px !important;
+        height: 300px;
+    }
+    .first-second-card, .third-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;     
+        flex-wrap: wrap;         
+        height: 100%;            
+    }
+    .for-responsive{
+        width: 335px !important;
+        height: 244px !important;
+    }
+    .card{
+        position: relative;
+    }
+    .card-img-overlay{
+        margin: 0px !important;
+        padding: 0px 0px 35px 30px !important;
+        position: absolute !important;
+        height: 100% !important;
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 40%) !important;
+        border-radius: 20px;
+    }
+    .card .card-img, .card .overly {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .card-title {
+        font-size: 18px; 
+        width: 300px;
+    }
+    .card-text {
+        font-size: 12px; 
+        width: 300px;
+        height: auto;
+    }
+    .card-button {
+        font-size: 14px; 
+        padding: 6px 12px; 
+    }
+    .product-pair{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .product-data {
+        width: 320px; 
+        height: 420px;
+        padding: 0px;
+    }
+    .product-image{
+        width: 280px;
+        height: 190px;
+        display: flex;
+        justify-content: center;
+    }
+    .info-header {
+        display: flex;
+        margin-bottom: 10px;
+        color: #333;
+        font-size: 14px;
+    }
+    .price-info{
+        display: inline;
+    }
+      
+    .info-header p {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+      
+    .product-name {
+        font-size: 20px;
+        margin: 10px 0 5px;
+        width: 300px;
+    }
+      
+    .product-pera {
+        font-size: 14px;
+        width: 200px;
+    }
+    .product-info{
+        padding-left: 60px !important;
+        width: 100% !important;
+    }
+      
+    .price-info p {
+        font-size: 14px;
+        color: #666;
+        margin: 5px 0 0;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    } 
+    .product-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .faq-main-div{
+        flex-wrap: wrap;
+    }
+    .faq-image{
+        width: 300px !important;
+    }
+    .contact-card{
+        width: 300px !important;
+    }
+    .form-section{
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-side{
+        width: 500px !important;
+    }
+    .contact-form-data{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .right-side{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-top: 50px !important;
+    }
+    #exampleFormControlTextarea1{
+        width: 335px !important;
+        height: 200px !important;
+    }
+    .form-button{
+        width: 335px;
+    }
+    
+    .footer-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .ftr{
+        text-align: center;
+    }
+    .footer-icon-data{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .for-resposive-footer{
+        width: 100% !important;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+
+
+
+
+}
+    
+
+    
+
+
+
